@@ -1,9 +1,10 @@
 #pragma once
 
-class Archer
+#include"Warrior.h"
+
+class Archer : public Warrior
 {
 public:
-	int _size;
 	virtual void info() = 0;
 	virtual ~Archer() {};
 };

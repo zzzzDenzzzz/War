@@ -2,6 +2,12 @@
 
 void UkrInfantryman::info()
 {
-	_size = rand();
-	cout << "UkrInfantryman - " << _size << endl;
+	cout << "UkrInfantryman" << endl;
+}
+
+UkrInfantryman::UkrInfantryman()
+{
+	setHealth(100);
+	setArmory(100);
+	setPower(100);
 }

@@ -9,4 +9,5 @@ class RomanHorseman : public Horseman
 {
 public:
 	void info();
+	RomanHorseman();
 };

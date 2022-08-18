@@ -2,6 +2,12 @@
 
 void RomanArcher::info()
 {
-	_size = rand();
-	cout << "RomanArcher - " << _size << endl;
+	cout << "RomanArcher " << endl;
+}
+
+RomanArcher::RomanArcher()
+{
+	setHealth(100);
+	setArmory(50);
+	setPower(70);
 }

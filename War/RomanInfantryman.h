@@ -10,4 +10,5 @@ class RomanInfantryman : public Infantryman
 {
 public:
 	void info();
+	RomanInfantryman();
 };

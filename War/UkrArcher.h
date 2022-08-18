@@ -9,4 +9,5 @@ class UkrArcher : public Archer
 {
 public:
 	void info();
+	UkrArcher();
 };

@@ -2,6 +2,12 @@
 
 void RomanHorseman::info()
 {
-	_size = rand();
-	cout << "RomanHorseman - " << _size << endl;
+	cout << "RomanHorseman " << endl;
+}
+
+RomanHorseman::RomanHorseman()
+{
+	setHealth(100);
+	setArmory(200);
+	setPower(200);
 }

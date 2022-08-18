@@ -11,17 +11,20 @@ Army *Game::createArmy(ArmyFactory &factory)
 
 void Game::war()
 {
+    Army ua_army;
+    Army r_army;
+
     UkrInfantryman ui;
     UkrArcher ua;
     UkrHorseman uh;
-    int size_ukr_army = ui._size + ua._size + uh._size;
+    ua_army.setSizeArmy(rand());
 
     RomanInfantryman ri;
     RomanArcher ra;
     RomanHorseman rh;
-    int size_roman_army = ri._size + ra._size + rh._size;
+    r_army.setSizeArmy(rand());
 
-    if (size_roman_army > size_ukr_army)
+    if (r_army.getSizeArmy() > ua_army.getSizeArmy())
     {
         cout << "Roman army win!\n";
     }

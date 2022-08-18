@@ -2,6 +2,12 @@
 
 void UkrHorseman::info()
 {
-	_size = rand();
-	cout << "UkrHorseman - " << _size << endl;
+	cout << "UkrHorseman" << endl;
+}
+
+UkrHorseman::UkrHorseman()
+{
+	setHealth(100);
+	setArmory(200);
+	setPower(200);
 }

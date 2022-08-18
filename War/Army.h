@@ -10,11 +10,13 @@ using namespace std;
 
 class Army
 {
+	int size_army;
 public:
 	~Army();
-	int army_size;
 	void info();
 	vector<Infantryman *> vi;
 	vector<Archer *> va;
 	vector<Horseman *> vh;
+	void setSizeArmy(int size_army);
+	int getSizeArmy();
 };

@@ -18,7 +18,6 @@ int main()
 	ra->info();
 	cout << "\nUkrain army: " << endl;
 	ua->info();
-
 	cout << endl;
 
 	game.war();

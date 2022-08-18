@@ -9,4 +9,5 @@ class RomanArcher : public Archer
 {
 public:
 	void info();
+	RomanArcher();
 };

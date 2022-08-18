@@ -30,5 +30,14 @@ void Army::info()
 	{
 		vh[i]->info();
 	}
-	army_size = rand();
+}
+
+void Army::setSizeArmy(int size_army)
+{
+	this->size_army = size_army;
+}
+
+int Army::getSizeArmy()
+{
+	return size_army;
 }

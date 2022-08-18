@@ -2,6 +2,12 @@
 
 void UkrArcher::info()
 {
-	_size = rand();
-	cout << "UkrArcher - " << _size << endl;
+	cout << "UkrArcher" << endl;
+}
+
+UkrArcher::UkrArcher()
+{
+	setHealth(100);
+	setArmory(50);
+	setPower(70);
 }

@@ -9,4 +9,5 @@ class UkrInfantryman : public Infantryman
 {
 public:
 	void info();
+	UkrInfantryman();
 };

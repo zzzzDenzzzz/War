@@ -9,4 +9,5 @@ class UkrHorseman : public Horseman
 {
 public:
 	void info();
+	UkrHorseman();
 };
